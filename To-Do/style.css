@@ -4,6 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
+/* define the flex property inside the body to make box responsive */
 body{
     font-family: sans-serif;
     background-color: #fff;
@@ -22,6 +23,8 @@ body{
 
 }
 #BTN{
+    background-color: rgb(244, 209, 215);
+    border-radius: 5px;
     min-width: 20%;
     margin-left: 5%;
     cursor: pointer;
@@ -70,7 +73,6 @@ h1{
     color: hsl(0, 21%, 93%);
     margin-bottom: 1rem;
     font-size: 1.5rem;
-
 }
 
 .card{

@@ -1,10 +1,11 @@
-
+//eventlistener is not blocked scope it alive even after it define inside the block to any variable, 
+//he element itself lives in the DOM, and the event listeners are bound to it.
 const container = document.getElementById("list1");
 const inputText = document.getElementById("input-Box");
 const taskBtn = document.getElementById("BTN");
 //const addTask = document.getElementById("Div-Content");
 
-
+let x = 5;
 let dive; 
 taskBtn.addEventListener("click", function(){
     let text = inputText.value.trim();
@@ -25,7 +26,7 @@ taskBtn.addEventListener("click", function(){
          dive.addEventListener("dragstart", dragStart);
         dive.addEventListener("dragend", dragEnd);
         inputText.value = "";   
-    }}) 
+    }})
    
     
 
