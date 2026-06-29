@@ -172,7 +172,7 @@ h2{
     border-right-color: #dc2626;
 }
 
-.transaction.delete-btn {
+.transaction .delete-btn {
     background: none;
     border: none;
     color: #dc2626;
@@ -183,15 +183,24 @@ h2{
     padding: 4px 8px;
     border-radius: 4px;
     margin-left: 12px;
+}
+.transaction:hover .delete-btn {
+  opacity: 1;
+}
 
-&:hover{
+.transaction .delete-btn:hover {
+  background-color: #fee2e2;
+  transform: scale(1.1);
+}
+
+/*&:hover{
     opacity: 1;
 }
 &:hover{
     background-color: #fff;
     transform: scale(1.1);
 }
-}
+} */
 
 .form-container {
     background: linear-gradient(135deg, #f6f8fb, #f1f4f8);
