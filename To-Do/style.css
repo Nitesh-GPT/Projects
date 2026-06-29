@@ -23,13 +23,16 @@ body{
 
 }
 #BTN{
-    background-color: rgb(244, 209, 215);
+    background-color: rgb(237, 174, 185);
     border-radius: 5px;
     min-width: 20%;
     margin-left: 5%;
     cursor: pointer;
     padding: 1rem;
     margin-bottom:  1rem;
+    &:hover{
+        background-color: hsl(350, 100%, 88%);
+    }
 }
 
 .container{

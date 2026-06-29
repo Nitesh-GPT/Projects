@@ -5,7 +5,7 @@ const inputText = document.getElementById("input-Box");
 const taskBtn = document.getElementById("BTN");
 //const addTask = document.getElementById("Div-Content");
 
-let x = 5;
+
 let dive; 
 taskBtn.addEventListener("click", function(){
     let text = inputText.value.trim();
